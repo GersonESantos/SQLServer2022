@@ -1,0 +1,29 @@
+--Comando SELECT é utilizado para selecionar as informações das tabelas
+--Podemos utilizar o SELECT * que irá listar todos os campos
+--Podemos utilizar o SELECT + NOME_CAMPO que irá listar somente os campos especificos
+
+SELECT * FROM TIPO_TELEFONE;
+
+SELECT DESCRICAO FROM TIPO_TELEFONE;
+
+SELECT * FROM TIPO_ENDERECO;
+
+SELECT DESCRICAO FROM TIPO_ENDERECO;
+
+SELECT * FROM TELEFONES;
+
+SELECT DDD,TELEFONE FROM TELEFONES
+
+SELECT * FROM CLIENTES
+
+SELECT * FROM PRODUTOS
+
+--SELECT
+SELECT * FROM PEDIDOS
+
+
+
+SELECT ID_PEDIDO, DATA_PEDIDO,VALOR_TOTAL FROM PEDIDOS
+
+
+
